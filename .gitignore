@@ -1,0 +1,4 @@
+*.log
+*.blend[0-9]*
+.DS_Store
+__pycache__/

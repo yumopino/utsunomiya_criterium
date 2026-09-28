@@ -1,0 +1,11 @@
+{
+  "route_length_m": 2249.994254896195,
+  "official_lap_m": 2250,
+  "objects": 2782,
+  "cameras": [
+    "01 \u2022 Entire course",
+    "02 \u2022 Banba square",
+    "03 \u2022 Plan"
+  ],
+  "assumptions": "Schematic road geometry; illustrative buildings, road widths and levels."
+}
