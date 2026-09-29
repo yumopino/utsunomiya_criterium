@@ -1,0 +1,12 @@
+{
+  "frames": 72,
+  "fps": 24,
+  "duration_seconds": 3,
+  "resolution": [
+    1280,
+    720
+  ],
+  "eye_height_m": 1.65,
+  "lap_m": 2249.994254896195,
+  "start_finish_error_m": 0.0
+}

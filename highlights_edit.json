@@ -1,0 +1,36 @@
+{
+  "duration_seconds": 25.0,
+  "bytes": 3534073,
+  "clips": [
+    {
+      "label": "01 / BANBA START",
+      "source_start_seconds": 0,
+      "duration_seconds": 4,
+      "timeline_start": 1
+    },
+    {
+      "label": "02 / ODORI AVENUE",
+      "source_start_seconds": 18,
+      "duration_seconds": 4,
+      "timeline_start": 97
+    },
+    {
+      "label": "03 / WEST HAIRPIN",
+      "source_start_seconds": 34.8,
+      "duration_seconds": 6,
+      "timeline_start": 193
+    },
+    {
+      "label": "04 / EAST HAIRPIN",
+      "source_start_seconds": 115,
+      "duration_seconds": 6,
+      "timeline_start": 337
+    },
+    {
+      "label": "05 / FINISH",
+      "source_start_seconds": 157,
+      "duration_seconds": 5,
+      "timeline_start": 481
+    }
+  ]
+}

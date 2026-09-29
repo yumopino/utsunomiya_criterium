@@ -1,0 +1,15 @@
+{
+  "frames": 3888,
+  "fps": 24,
+  "duration_seconds": 162,
+  "average_kmh": 49.99987233102655,
+  "cruise_kmh": 56.85495354109662,
+  "hairpin_kmh": 18,
+  "eye_height_m": 1.65,
+  "lap_m": 2249.994254896195,
+  "resolution": [
+    1280,
+    720
+  ],
+  "note": "Designed speed profile, not actual race telemetry."
+}

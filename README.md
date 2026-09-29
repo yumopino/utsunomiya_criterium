@@ -25,3 +25,24 @@
 ```sh
 '/Applications/Blender 4.3.app/Contents/MacOS/Blender' --background --python build_course.py
 ```
+
+## 自転車目線の3秒動画
+- `utsunomiya_cyclist_pov_3s.mp4`：1280×720、24fps、72フレーム、無音のH.264 MP4。
+- `utsunomiya_cyclist_pov_3s.blend`：カメラのアニメーション付きシーン。
+- `animate_ride.py`：既存モデルから動画を再生成するスクリプト。
+- `cyclist_pov_preview.png`：スタート位置の目線確認画像。
+
+バンバひろばのスタート線から北側車線を西へ進み、両端を折り返して同じスタート／フィニッシュ線まで1周します。カメラ高は1.65m、広角20mm。2.25kmの1周を3秒に圧縮した早送り表現で、実際の自転車の走行速度ではありません。全景用の赤いコース線・方向矢印を動画では非表示にしています。
+
+## レース想定速度の動画
+`utsunomiya_race_pov_50kmh.mp4` は1周162秒（2分42秒）、1280×720、24fps、無音。平均約50km/h、直線の巡航約56.85km/h、折り返し約18km/hで、カーブ前後65mで滑らかに減速・加速します。速度は演出用に設計したもので、実際の選手の走行記録ではありません。目線の高さは1.65mです。
+
+`utsunomiya_race_pov_50kmh.blend` にカメラアニメーションを保存し、`animate_race.py` で再生成できます。長尺動画はWorkbenchレンダラーのマテリアル色・陰影で描画しています。
+
+## ハイライト編集
+- `course_6_highlights.mp4`：最新版。30秒・4,225,777バイト。スタート、大通り、西側ヘアピン、ヘアピン間の直線、東側ヘアピン、ゴール前の6場面。
+- `course_5_highlights.mp4`：初版。25秒・3,534,073バイト。5場面。
+- `course_6_highlights_edit.blend` / `edit_highlights_6.py`：最新版の編集シーンと再生成スクリプト。
+- `course_5_highlights_edit.blend` / `edit_highlights.py`：初版の編集シーンと再生成スクリプト。
+
+どちらも960×540・24fps・無音のMP4で、5,000,000バイト以内。`highlights_6_edit.json` と `highlights_edit.json` に切り出し位置とサイズを記録しています。再編集には同じフォルダの `utsunomiya_race_pov_50kmh.mp4` を使用します。

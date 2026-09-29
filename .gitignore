@@ -2,3 +2,7 @@
 *.blend[0-9]*
 .DS_Store
 __pycache__/
+
+# Intermediate render output and review frames
+*.mp4*.mkv
+highlight_check_*.png
