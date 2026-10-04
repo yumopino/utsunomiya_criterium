@@ -1,0 +1,8 @@
+{
+  "riders": 55,
+  "teams": 6,
+  "spectators": 70,
+  "bike_wheelbase_m": 1.06,
+  "scene": "utsunomiya_japan_cup_race.blend",
+  "static_scene": true
+}
